@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav{
+   display: flex;
+   height: 80px;
+   align-items: center;
+   justify-content: space-around;
+   list-style: none;
+}
+.links{
+    text-decoration: none;
+    color: palevioletred;
+}
+.lists{
+    text-decoration: none;
+}
+.burger{
+    margin: 60px 0;
+}
+.burger li{
+    padding: 30px 0;
+}
+.burger li .lists{
+   
+   color: palevioletred;
+    
+}
+@media (max-width: 576px) {
+    .nav {
+      display: none;
+    }
+  }
